@@ -29,18 +29,18 @@ global.socialm = "GitHub: sorry , try agian !" //ur github or insta name
 global.location = "sorry , try agian !" //ur location
 
 //new
-global.botname = "MARK BOT MD V8"
+global.botname = " 𝚂𝙸𝚁.𝙼𝙰𝚁𝙺 𝚆𝙷𝙰𝚃𝚂𝙿𝙿 𝚄𝚂𝙴𝚁 𝙱𝙾𝚃"
 global.ownernumber = '989935689926'
-global.ownername = '🦄드림 가이 MARK'
+global.ownername = '𝗠𝗔𝗥𝗞 𝗕𝗼𝘁 𝗠𝗱 𝘄𝗵𝗮𝘁𝘀𝗮𝗽𝗽'
 global.ownerNumber = ["989935689926@s.whatsapp.net"]
-global.ownerweb = "sorry , try agian !"
-global.websitex = "sorry , try agian !"
-global.wagc = "sorry , try agian !"
+global.ownerweb = "کیر شدی سید"
+global.websitex = "کیر شدی سید"
+global.wagc = "و همچنان کیر شدی سید"
 global.themeemoji = '🪀'
 global.wm = "mark Bot Inc."
 global.botscript = 'sorry , try agian !' //script link
-global.packname = "MARK,,"
-global.author = "드림 가이"
+global.packname = "𝗠𝘈𝘙𝗞"
+global.author = ""
 global.creator = "989935689926@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
@@ -61,7 +61,8 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 
 //messages
 global.mess = {
-    success: 'Here you go!', 
+    success: '𝘠𝘖𝘜 𝘋𝘙𝘐𝘝𝘌 𝘐𝘚 𝘙𝘌𝘈𝘋𝘠 𝘚𝘐𝘙..🙂
+	    ℳ𝒶𝓇𝓀 ℬℴ𝓉 ℳ𝒹 ⇾ *+989935689926*', 
 }
 
 let file = require.resolve(__filename)
