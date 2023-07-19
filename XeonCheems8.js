@@ -1490,10 +1490,11 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let timestampe = speed()
             let latensie = speed() - timestampe
             xeonezy = `┌─❖
-│ Hi 👋 
+│ ℎ𝑖 𝑚𝑎𝑟𝑘𝑘𝑘 ..
+ 
 └┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄
-│└────────────┈ ⳹
+┌┤✑  ${xeonytimewisher} 
+│└────────────┈ 
 │
 └─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
 │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -1513,29 +1514,29 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 └─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
 │𝗧𝗶??𝗲 : ${xtime}
 │𝗗𝗮𝘁𝗲 : ${xdate}
-└┬────────────┈ ⳹
+└┬────────────┈ 
    │✑  Please Type The *MENU*
    │✑  Given *BELOW*
-┌└─────────────┈ ⳹
-│❏.allmenu
-│❏.downloadmenu
-│❏.funmenu
-│❏.aimenu
-│❏.groupmenu
-│❏.ownermenu
-│❏.photooxymenu
-│❏.textpromenu
-│❏.ephoto360menu
-│❏.animemenu
-│❏.nsfwmenu
-│❏.randomphotomenu
-│❏.randomvideomenu
-│❏.stickermenu
-│❏.databasemenu
-│❏.stalkermenu
-│❏.bugmenu
-│❏.othermenu
-└─────────────────┈ ⳹`
+┌└─────────────┈ 
+│❏.𝗚𝗶𝘁 𝗵𝘂𝗯
+│❏.𝗩𝗽𝘀
+│❏.𝗡𝗼𝗱𝗲.𝗷𝘀
+│❏.𝗟𝗶𝗻𝘂𝘅 𝗰𝗿𝗮𝘁𝗲𝗿
+│❏.𝗦𝗽𝗲𝗲𝗱 𝗔𝗶
+│❏.𝟵𝟴𝟵𝟵𝟯𝟱𝟲𝟴𝟵𝟵𝟮𝟲
+│❏.𝗕𝘆 𝗠𝗮𝗿𝗸 
+│❏.𝗧𝗲𝘀𝘁 𝗧𝗵𝗲 𝗯𝗼𝘁
+│❏.𝗕𝗼𝘁 𝗶𝘀 𝗽𝗿𝗶𝘃𝗮𝘁𝗲
+│❏.𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝘀𝘂𝗽𝗽𝗼𝗿𝘁
+│❏.𝗖𝘃𝗰
+│❏.𝗦𝗨𝗢𝗧𝗛 𝗞𝗢𝗥𝗘𝗔
+│❏.𝗥𝘂𝗻𝗶𝗻𝗴 𝗶𝗻 𝗛𝗼𝘀𝘁
+│❏.𝗕𝗲𝗲𝗻
+│❏.𝗥𝗲𝗽𝗼𝗿𝘁
+│❏.𝗔𝗜 𝗦𝗽𝗲𝗲𝗱𝗿𝗲𝘁
+│❏.𝗔𝗹𝗹 𝗠𝗲𝗻𝘂 𝗶𝗻 𝗕𝗼𝘁
+│❏.𝗛𝗮𝘃𝗲 𝗴𝗼𝗼𝗱 𝗱𝗮𝘆
+└─────────────────┈ `
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
@@ -3193,10 +3194,10 @@ if (!m.isGroup) return XeonStickGroup()
 if (!isAdmins && !XeonTheCreator) return XeonStickAdmin()
 if (!isBotAdmins) return XeonStickBotAdmin()
 me = m.sender
-let teks = `╚»˙·٠${themeemoji}●♥ Tag All ♥●${themeemoji}٠·˙«╝ 
+let teks = `╚»˙·٠𝗧𝗔𝗚 𝗔𝗟𝗟 𝗜𝗡 𝗖𝗛𝗔𝗡𝗘𝗟٠·˙«╝ 
  
- 😶 *Tagger :*  @${me.split('@')[0]}
- 🌿 *Message : ${q ? q : 'no message'}*\n\n`
+  *Tagger :*  @${me.split('@')[0]}
+  👉*Message : ${q ? q : 'no message'}*\n\n`
 for (let mem of participants) {
 teks += `${themeemoji} @${mem.id.split('@')[0]}\n`
 }
