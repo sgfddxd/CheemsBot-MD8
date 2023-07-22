@@ -2,11 +2,11 @@ const chalk = require("chalk")
 const fs = require("fs")
 
 //aumto presence update
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
-global.autoblockmorroco = false //auto block 212 (true to on, false to off)
-global.autokickmorroco = false //auto kick 212 (true to on, false to off) 
-global.antispam = false //auto kick spammer (true to on, false to off)
+global.autoTyping = true //auto tying in gc (true to on, false to off)
+global.autoRecord = true //auto recording (true to on, false to off)
+global.autoblockmorroco = true //auto block 212 (true to on, false to off)
+global.autokickmorroco = true //auto kick 212 (true to on, false to off) 
+global.antispam = true //auto kick spammer (true to on, false to off)
 
 
 //if api key expire, u can generate one from here: https://beta.openai.com/account/api-keys
@@ -33,9 +33,9 @@ global.botname = " 𝚂𝙸𝚁.𝙼𝙰𝚁𝙺 𝚆𝙷𝙰𝚃𝚂𝙿𝙿 �
 global.ownernumber = '989935689926'
 global.ownername = '𝗠𝗔𝗥𝗞 𝗕𝗼𝘁 𝗠𝗱 𝘄𝗵𝗮𝘁𝘀𝗮𝗽𝗽'
 global.ownerNumber = ["989935689926@s.whatsapp.net"]
-global.ownerweb = "کیر شدی سید"
-global.websitex = "کیر شدی سید"
-global.wagc = "و همچنان کیر شدی سید"
+global.ownerweb = "https://chat.whatsapp.com/K4qlJgORgeyJpEM15bB6mf"
+global.websitex = "https://telegra.ph/file/5f965eea22feacbd7f1a7.jpg"
+global.wagc = "https://chat.whatsapp.com/K4qlJgORgeyJpEM15bB6mf"
 global.themeemoji = '🪀'
 global.wm = "mark Bot Inc."
 global.botscript = 'sorry , try agian !' //script link
@@ -47,10 +47,10 @@ global.sessionName = 'session'
 global.hituet = 0
 
 //media target
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("https://telegra.ph/file/5f965eea22feacbd7f1a7.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("https://telegra.ph/file/5f965eea22feacbd7f1a7.jpg") //ur logo pic
+global.err4r = fs.readFileSync("https://telegra.ph/file/5f965eea22feacbd7f1a7.jpg" //ur error pic
+global.thumb = fs.readFileSync("https://telegra.ph/file/5f965eea22feacbd7f1a7.jpg") //ur thumb pic
 global.defaultpp = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60' //default pp wa
 
 //menu image maker
